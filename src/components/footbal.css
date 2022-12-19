@@ -1,0 +1,49 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.field {
+	height: 300px;
+	width: 600px;
+	background-color: green;
+	border: 3px solid black;
+	position: relative;
+}
+
+.gates {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gater {
+	margin-top: 75px;
+	height: 150px;
+	width: 15px;
+	background-color: black;
+}
+
+.center {
+	background-color: #fff;
+	height: 300px;
+	width: 3px;
+}
+
+.btnAll {
+	margin-top: 30px;
+}
+
+button {
+	margin-left: 10px;
+}
+
+img {
+	position: absolute;
+}
+
+span {
+	font-size: 30px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
